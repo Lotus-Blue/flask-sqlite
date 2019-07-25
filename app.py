@@ -13,6 +13,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 # Init ma
 ma = Marshmallow(app)
+sh=1
 
 # Product Class/Model
 class Product(db.Model):
